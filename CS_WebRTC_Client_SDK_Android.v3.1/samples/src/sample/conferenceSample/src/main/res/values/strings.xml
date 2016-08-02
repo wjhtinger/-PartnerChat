@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WooGeenConference</string>
+    <string name="publish">Start Video</string>
+    <string name="createRoom">Create Room</string>
+    <string name="chooseRoom">Room List</string>
+    <string name="chooseService">Service List</string>
+    <string name="server">Server:</string>
+    <string name="getServices">Get Services</string>
+    <string name="roomName">Room Name</string>
+    <string name="joinRoom">Join Room</string>
+    <string name="serviceName">Service Name</string>
+    <string name="serviceKey">Service Key</string>
+    <string name="rmLocalAudio">Remove Local Audio</string>
+    <string name="rmLocalVideo">Remove Local Video</string>
+    <string name="connect">Connect</string>
+    <string name="send">Send</string>
+    <string name="message">message</string>
+    <string name="remoteMsg">Remote Message</string>
+    <string name="chooseServer">Choose Server</string>
+    <string name="basicServer">Basic Server</string>
+    <string name="manager">Manager</string>
+    <string name="serviceId">Service ID</string>
+    <string name="superService">Service</string>
+    <string name="defaultSuperId"></string>
+    <string name="defaultSuperKey"></string>
+    <string name="superServiceId">Service ID</string>
+    <string name="superServiceKey">Service Key</string>
+    <string name="rmRemoteAudio">Remove Remote Audio</string>
+    <string name="rmRemoteVideo">Remove Remote Video</string>
+    <string name="streamSettingsPrompt">Remove stream is not supported in this version.</string>
+    <string name="startRecorder">Start Recorder</string>
+    <string name="stopRecorder">Stop Recorder</string>
+    <string name="pauseVideo">Pause Remote Video</string>
+    <string name="pauseAudio">Pause Remote Audio</string>
+    <string name="pauseLocalAudio">Pause Local Audio</string>
+    <string name="pauseLocalVideo">Pause Local Video</string>
+
+</resources>

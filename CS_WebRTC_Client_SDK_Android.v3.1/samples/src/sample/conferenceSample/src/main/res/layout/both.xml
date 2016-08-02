@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="140dip"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/llLocalView"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:orientation="horizontal"
+            android:paddingTop="2dp" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btConnect"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:enabled="true"
+            android:onClick="onClick"
+            android:text="@string/connect" />
+
+        <Button
+            android:id="@+id/btStartStopCall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:onClick="onClick"
+            android:enabled="false"
+            android:text="@string/publish" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llRemoteView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+    </LinearLayout>
+
+</LinearLayout>

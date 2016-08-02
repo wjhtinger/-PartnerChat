@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/leftLayout"
+        android:layout_width="140dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/local_view_container"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/publishRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_startVideo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="onClick"
+            android:text="@string/startVideo" />
+
+        <Button
+            android:id="@+id/btn_stopVideo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="onClick"
+            android:text="@string/stopVideo" />
+
+        <Button
+            android:id="@+id/btn_switchCamera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="onClick"
+            android:text="@string/switchCamera" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/remote_view_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/leftLayout"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</RelativeLayout>

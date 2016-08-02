@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WooGeen_P2P</string>
+    <string name="action_settings">Settings</string>
+    <string name="removeAudio">Remove Audio</string>
+    <string name="removeVideo">Remove Video</string>
+    <string name="server">Server</string>
+    <string name="selfId">Self ID</string>
+    <string name="destId">Destination ID</string>
+    <string name="defaultSelfId">12</string>
+    <string name="defaultDestId">11</string>
+    <string name="defaultRoomId">23</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="connectToPeer">"Connect To Peer"</string>
+    <string name="disconnectFromPeer">Disconnect From Peer</string>
+    <string name="stopVideo">Stop Video</string>
+    <string name="startVideo">Start Video</string>
+    <string name="switchCamera">Switch Camera</string>
+    <string name="serverIp">http://61.152.239.56:8095/</string>
+    <string name="message">message</string>
+    <string name="sendMessage">Send Message</string>
+    <string name="receivedMessage">Received Message</string>
+    <string name="peerMode">P2P Direct Call</string>
+
+</resources>

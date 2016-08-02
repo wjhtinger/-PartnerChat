@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btSetLocalAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onClick"
+        android:text="@string/pauseLocalAudio" />
+
+    <Button
+        android:id="@+id/btSetLocalVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onClick"
+        android:text="@string/pauseLocalVideo" />
+
+    <Button
+        android:id="@+id/btSetRemoteAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onClick"
+        android:text="@string/pauseAudio" />
+
+    <Button
+        android:id="@+id/btSetRemoteVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onClick"
+        android:text="@string/pauseVideo" />
+
+    <Button
+        android:id="@+id/btStartRecorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onClick"
+        android:text="@string/startRecorder" />
+
+    <Button
+        android:id="@+id/btStopRecorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onClick"
+        android:text="@string/stopRecorder" />
+
+</LinearLayout>
